@@ -1,6 +1,8 @@
+package collections
+
 import commons.printArray
 
-object MyArray {
+case class MyArray() {
 
   /*
     ejemplo de funciones relacionads con builders
@@ -97,7 +99,7 @@ object MyArray {
 
   }
 
-  def main(args: Array[String]): Unit = {
+  def run(): Unit = {
     // builder()
     // factoryMethods()
     // transforms()

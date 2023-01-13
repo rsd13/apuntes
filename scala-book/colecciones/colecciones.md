@@ -138,3 +138,43 @@ arrayGroupBy.foreach( item => {
   println("Array:" + item._1 +  " " + arrayMap)
 })
 ```
+## Immutable
+
+La estructura *Array* es la más basica de Scala, normalmente se trabaja con estructuras inmutables que son:
+- Vectors
+- List
+- Sets
+- Map
+
+
+Las colecciones inmutables descartan toda una clase de bugs debidos a modificaciones inesperadas, y son especialmente especialmente útiles en escenarios **multihilo** donde se pueden pasar colecciones inmutables entre hilos sin preocuparse por la seguridad de los hilos
+### Vector
+
+Los vectores son secuencias lineales inmutables de tamaño fijo. Son una buena estructura de datos secuenciales de uso general y ofrecen un rendimiento eficiente O(log n) para la mayoría de las operaciones.
+
+### List
+
+Las listas son objetos **inmutables**, son una estructura de datos de listas enlazadas divididos por nodos. Cada nodo de la lista tiene un valor y un puntero al siguiente nodo, terminando en un nodo *Nil*. 
+
+Contiene dos propiedades para obtener los valores de cada nodo:
+
+- **head**: da el primer elemento de la lista, es decir el primer nodo (O(1)).
+- **tail**: crea una lista sin el primer elemento (O(1)).
+
+
+son eficientes porque pueden compartir gran parte de la Lista existente: .tail devuelve una referencia al siguiente nodo de la estructura unifilar, mientras que :: añade un nuevo nodo delante. El hecho de que varias listas puedan compartir nodos significa que, en el ejemplo anterior, miLista, miCola, miOtraLista y miTerceraLista son en realidad, en su mayor parte, la misma estructura de datos:
+
+Para inicializar un vector vacio:
+
+```scala
+val v = Vector[Int]()
+```
+
+Para inicializar un vector con uno que existe añadiendo un elemento se hace con ```+:```
+
+
+
+```scala
+val v = Vector[Int]()
+val v1 = v :+ 1
+```

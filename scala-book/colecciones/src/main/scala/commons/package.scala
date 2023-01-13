@@ -6,6 +6,11 @@ package object commons {
     println(array.mkString("[", ", ", "]"))
   }
 
+  def printVector[T](vector: Vector[T], msg: String):Unit = {
+    println("-----ARRAY "+ msg + "-----")
+    println(vector.mkString("[", ", ", "]"))
+  }
+
 
 
 }

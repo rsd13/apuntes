@@ -2,9 +2,19 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="dap-metadatalog-lib-scala" />
+      <option name="name" value="dap-metadatalog-lib-scala" />
+      <option name="url" value="https://repsol-digital-team.pkgs.visualstudio.com/_packaging/dap-metadatalog-lib-scala/maven/v1" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repsol-digital-team-visualstudio-com-repsol-digital-team-dap-platformcore-jvm" />
+      <option name="name" value="repsol-digital-team-visualstudio-com-repsol-digital-team-dap-platformcore-jvm" />
+      <option name="url" value="https://repsol-digital-team.pkgs.visualstudio.com/_packaging/dap-platformcore-jvm/maven/v1" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -12,9 +22,29 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dap-platformcore-jvm" />
+      <option name="name" value="dap-platformcore-jvm" />
+      <option name="url" value="https://repsol-digital-team.pkgs.visualstudio.com/_packaging/dap-platformcore-jvm/maven/v1" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dev-azure-com-repsol-digital-team-ems-utils" />
+      <option name="name" value="dev-azure-com-repsol-digital-team-ems-utils" />
+      <option name="url" value="https://pkgs.dev.azure.com/repsol-digital-team/_packaging/ems-utils/maven/v1" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cloudera" />
+      <option name="name" value="cloudera" />
+      <option name="url" value="https://repository.cloudera.com/artifactory/cloudera-repos" />
     </remote-repository>
   </component>
 </project>
